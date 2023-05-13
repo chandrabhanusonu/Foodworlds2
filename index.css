@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  padding: 0 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+.nva-items ul {
+  display: flex;
+  list-style: none;
+  column-gap: 4rem;
+}
+
+.nva-items ul li {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 75px;
+  height: 50px;
+}
+
+.card {
+  width: 272px;
+  border: 1px solid black;
+  font-family: sans-serif;
+  padding: 0.5rem;
+}
+
+.card img {
+  width: 100%;
+}
+.card h2 {
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+  padding-bottom: 0.7rem;
+}
+
+.card h4 {
+  font-size: 0.8rem;
+}
+
+.resturantcard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.shimmer-cards {
+  width: 272px;
+  height: 175px;
+  margin-left: 2rem;
+  background-color: lightgray;
+}

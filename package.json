@@ -1,0 +1,22 @@
+{
+  "name": "foodworlds",
+  "version": "1.0.0",
+  "description": "This is the simple food website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sonu Singh Rajput",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  }
+}
